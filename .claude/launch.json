@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "dwello-server",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["server.js"],
+      "port": 3000
+    },
+    {
+      "name": "admin-dashboard",
+      "runtimeExecutable": "dotnet",
+      "runtimeArgs": ["run", "--project", "AdminDashboard", "--urls", "http://localhost:5181"],
+      "port": 5181
+    }
+  ]
+}

@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dwello Interiors | End-to-End Home Interior Design</title>
+<meta name="description" content="Dwello Interiors designs and builds beautiful, functional homes end-to-end — from 3D design to installation, on time and on budget.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏠</text></svg>">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="#home" class="logo">Dwello<span>Interiors</span></a>
+
+    <nav class="nav" id="mainNav">
+      <ul>
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#process" class="nav-link">How It Works</a></li>
+        <li><a href="#gallery" class="nav-link">Projects</a></li>
+        <li><a href="#pricing" class="nav-link">Pricing</a></li>
+        <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+        <li><a href="#faq" class="nav-link">FAQ</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <a href="#contact" class="btn btn-primary">Get Free Consultation</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="hero-media">
+    <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=1600&auto=format&fit=crop" alt="Beautifully designed modern living room">
+    <div class="hero-overlay"></div>
+  </div>
+
+  <div class="container hero-content">
+    <p class="eyebrow fade-in-load" style="--delay:0s">Award-winning interior design, end to end</p>
+    <h1 class="fade-in-load" style="--delay:.1s">Your Dream Home, <span>Designed &amp; Delivered</span> Beautifully</h1>
+    <p class="hero-sub fade-in-load" style="--delay:.2s">From concept to handover — 3D design, premium materials, and on-time installation for your living room, kitchen, bedroom and more.</p>
+
+    <form class="hero-form fade-in-load" style="--delay:.3s" id="heroForm">
+      <input type="tel" name="phone" placeholder="Enter your phone number" required pattern="[0-9]{10}" maxlength="10">
+      <select name="city" required>
+        <option value="" disabled selected>Select city</option>
+        <option>Mumbai</option>
+        <option>Bengaluru</option>
+        <option>Pune</option>
+        <option>Delhi NCR</option>
+        <option>Hyderabad</option>
+        <option>Chennai</option>
+        <option>Other</option>
+      </select>
+      <button type="submit" class="btn btn-accent">Get Free Quote</button>
+    </form>
+    <p id="heroFormMsg" class="form-inline-msg" hidden></p>
+
+    <ul class="hero-stats fade-in-load" style="--delay:.4s">
+      <li><strong data-count="75000">0</strong><span>Homes Designed</span></li>
+      <li><strong data-count="30">0</strong><span>Cities</span></li>
+      <li><strong data-count="10">0</strong><span>Years Warranty</span></li>
+      <li><strong data-count="4.8" data-decimal="1">0</strong><span>Customer Rating</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ TRUST STRIP ============ -->
+<section class="trust-strip">
+  <div class="container trust-inner">
+    <div class="trust-item"><span>✔</span> 10-Year Warranty</div>
+    <div class="trust-item"><span>✔</span> 100+ Quality Checks</div>
+    <div class="trust-item"><span>✔</span> On-Time Delivery</div>
+    <div class="trust-item"><span>✔</span> Certified Premium Materials</div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="section" id="services">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">What we design</p>
+      <h2>A Room For Every Story</h2>
+      <p class="section-sub">Full-home or single-room interiors, tailored to your style and budget.</p>
+    </div>
+
+    <div class="grid services-grid">
+      <article class="service-card reveal">
+        <img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?q=80&w=800&auto=format&fit=crop" alt="Living room design">
+        <div class="service-body">
+          <h3>Living Room</h3>
+          <p>False ceilings, TV units &amp; seating layouts that make every gathering memorable.</p>
+        </div>
+      </article>
+
+      <article class="service-card reveal">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop" alt="Modular kitchen design">
+        <div class="service-body">
+          <h3>Modular Kitchen</h3>
+          <p>Smart storage, premium finishes and layouts built around how you cook.</p>
+        </div>
+      </article>
+
+      <article class="service-card reveal">
+        <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?q=80&w=800&auto=format&fit=crop" alt="Bedroom design">
+        <div class="service-body">
+          <h3>Bedroom</h3>
+          <p>Wardrobes, lighting &amp; soft furnishings designed for rest and calm.</p>
+        </div>
+      </article>
+
+      <article class="service-card reveal">
+        <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=800&auto=format&fit=crop" alt="Kids room design">
+        <div class="service-body">
+          <h3>Kids Room</h3>
+          <p>Playful, durable and adaptable spaces that grow with your child.</p>
+        </div>
+      </article>
+
+      <article class="service-card reveal">
+        <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?q=80&w=800&auto=format&fit=crop" alt="Bathroom design">
+        <div class="service-body">
+          <h3>Bathroom</h3>
+          <p>Waterproof, low-maintenance fittings with a spa-like finish.</p>
+        </div>
+      </article>
+
+      <article class="service-card reveal">
+        <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=800&auto=format&fit=crop" alt="Full home interior design">
+        <div class="service-body">
+          <h3>Full Home Interiors</h3>
+          <p>One design language, one team, one timeline — for your entire home.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section class="section section-alt" id="process">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">How it works</p>
+      <h2>From Idea To Move-In, In 4 Simple Steps</h2>
+    </div>
+
+    <div class="grid process-grid">
+      <div class="process-card reveal">
+        <div class="process-num">01</div>
+        <h3>Free Consultation</h3>
+        <p>Share your space, style and budget with our design expert.</p>
+      </div>
+      <div class="process-card reveal">
+        <div class="process-num">02</div>
+        <h3>3D Design</h3>
+        <p>Get a photo-realistic 3D layout and material selection before we begin.</p>
+      </div>
+      <div class="process-card reveal">
+        <div class="process-num">03</div>
+        <h3>Production &amp; Execution</h3>
+        <p>Factory-made modular units, installed by our trained in-house teams.</p>
+      </div>
+      <div class="process-card reveal">
+        <div class="process-num">04</div>
+        <h3>Handover</h3>
+        <p>Final quality check and a 10-year warranty on your new home.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section class="section" id="gallery">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Our work</p>
+      <h2>Recently Completed Projects</h2>
+    </div>
+
+    <div class="filter-tabs" id="filterTabs">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="living">Living Room</button>
+      <button class="filter-btn" data-filter="kitchen">Kitchen</button>
+      <button class="filter-btn" data-filter="bedroom">Bedroom</button>
+    </div>
+
+    <div class="grid gallery-grid" id="galleryGrid">
+      <figure class="gallery-item reveal" data-cat="living">
+        <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=900&auto=format&fit=crop" alt="Living room project in Mumbai">
+        <figcaption>Contemporary Living Room · Mumbai</figcaption>
+      </figure>
+      <figure class="gallery-item reveal" data-cat="kitchen">
+        <img src="https://images.unsplash.com/photo-1556909212-d5b604d0c90d?q=80&w=900&auto=format&fit=crop" alt="Kitchen project in Bengaluru">
+        <figcaption>L-Shaped Modular Kitchen · Bengaluru</figcaption>
+      </figure>
+      <figure class="gallery-item reveal" data-cat="bedroom">
+        <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=900&auto=format&fit=crop" alt="Bedroom project in Pune">
+        <figcaption>Minimal Master Bedroom · Pune</figcaption>
+      </figure>
+      <figure class="gallery-item reveal" data-cat="living">
+        <img src="https://images.unsplash.com/photo-1499933374294-4584851497cc?q=80&w=900&auto=format&fit=crop" alt="Living room project in Delhi">
+        <figcaption>Classic Living Room · Delhi NCR</figcaption>
+      </figure>
+      <figure class="gallery-item reveal" data-cat="kitchen">
+        <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=900&auto=format&fit=crop" alt="Kitchen project in Chennai">
+        <figcaption>Parallel Kitchen · Chennai</figcaption>
+      </figure>
+      <figure class="gallery-item reveal" data-cat="bedroom">
+        <img src="https://images.unsplash.com/photo-1591079123969-1f0a56258aad?q=80&w=900&auto=format&fit=crop" alt="Bedroom project in Hyderabad">
+        <figcaption>Cozy Bedroom Suite · Hyderabad</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY US ============ -->
+<section class="section section-dark" id="why-us">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow light">Why Dwello</p>
+      <h2 class="light">Interior Design, Without The Stress</h2>
+    </div>
+    <div class="grid why-grid">
+      <div class="why-card reveal">
+        <div class="why-icon">🛡️</div>
+        <h3>10-Year Warranty</h3>
+        <p>On all modular furniture and finishes, no fine print.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon">📐</div>
+        <h3>3D Visualisation</h3>
+        <p>See your home before a single nail is hammered.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon">⏱️</div>
+        <h3>On-Time Delivery</h3>
+        <p>Fixed timelines with real-time project tracking.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon">💬</div>
+        <h3>One Point Of Contact</h3>
+        <p>A dedicated project manager from day one to handover.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRICING ============ -->
+<section class="section" id="pricing">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Packages</p>
+      <h2>Designs For Every Budget</h2>
+      <p class="section-sub">Indicative pricing for a 2BHK home. Final quote depends on scope and material choices.</p>
+    </div>
+
+    <div class="grid pricing-grid">
+      <div class="pricing-card reveal">
+        <h3>Essential</h3>
+        <p class="price">₹4.5<span>L onwards</span></p>
+        <ul>
+          <li>Modular kitchen &amp; wardrobes</li>
+          <li>Standard laminate finishes</li>
+          <li>Basic false ceiling &amp; lighting</li>
+          <li>5-year warranty</li>
+        </ul>
+        <a href="#contact" class="btn btn-outline">Choose Plan</a>
+      </div>
+
+      <div class="pricing-card featured reveal">
+        <div class="pricing-badge">Most Popular</div>
+        <h3>Premium</h3>
+        <p class="price">₹8.9<span>L onwards</span></p>
+        <ul>
+          <li>Everything in Essential</li>
+          <li>Premium finishes &amp; hardware</li>
+          <li>Full false ceiling &amp; decor lighting</li>
+          <li>Soft furnishings included</li>
+          <li>10-year warranty</li>
+        </ul>
+        <a href="#contact" class="btn btn-accent">Choose Plan</a>
+      </div>
+
+      <div class="pricing-card reveal">
+        <h3>Luxury</h3>
+        <p class="price">₹15<span>L onwards</span></p>
+        <ul>
+          <li>Everything in Premium</li>
+          <li>Designer &amp; imported materials</li>
+          <li>Custom furniture &amp; art curation</li>
+          <li>Dedicated senior designer</li>
+          <li>10-year warranty</li>
+        </ul>
+        <a href="#contact" class="btn btn-outline">Choose Plan</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="section section-alt" id="testimonials">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Happy homeowners</p>
+      <h2>Loved By 75,000+ Families</h2>
+    </div>
+
+    <div class="testimonial-slider">
+      <button class="t-arrow t-prev" id="tPrev" aria-label="Previous">‹</button>
+
+      <div class="testimonial-track" id="testimonialTrack">
+        <div class="testimonial-card">
+          <p class="stars">★★★★★</p>
+          <p class="quote">"The 3D design matched the final output almost perfectly. Delivered two weeks ahead of schedule!"</p>
+          <div class="t-person">
+            <img src="https://i.pravatar.cc/80?img=32" alt="Portrait of Ananya Sharma">
+            <div><strong>Ananya Sharma</strong><span>2BHK, Bengaluru</span></div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="stars">★★★★★</p>
+          <p class="quote">"Loved the single point of contact — no chasing carpenters or painters separately. Very smooth process."</p>
+          <div class="t-person">
+            <img src="https://i.pravatar.cc/80?img=12" alt="Portrait of Rohit Verma">
+            <div><strong>Rohit Verma</strong><span>3BHK, Pune</span></div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="stars">★★★★★</p>
+          <p class="quote">"Premium quality within our budget. The kitchen storage design alone was worth it."</p>
+          <div class="t-person">
+            <img src="https://i.pravatar.cc/80?img=47" alt="Portrait of Meera Nair">
+            <div><strong>Meera Nair</strong><span>Villa, Chennai</span></div>
+          </div>
+        </div>
+      </div>
+
+      <button class="t-arrow t-next" id="tNext" aria-label="Next">›</button>
+    </div>
+
+    <div class="t-dots" id="testimonialDots"></div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section" id="faq">
+  <div class="container container-narrow">
+    <div class="section-head">
+      <p class="eyebrow">Questions</p>
+      <h2>Frequently Asked Questions</h2>
+    </div>
+
+    <div class="accordion" id="accordion">
+      <div class="accordion-item">
+        <button class="accordion-trigger">How long does a full home interior take? <span>+</span></button>
+        <div class="accordion-panel"><p>Typically 45–60 days for a 2–3BHK from design finalisation to handover, depending on scope and site readiness.</p></div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-trigger">Is the 3D design free? <span>+</span></button>
+        <div class="accordion-panel"><p>Yes, the initial 3D design and quote are completely free with no obligation to proceed.</p></div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-trigger">What does the warranty cover? <span>+</span></button>
+        <div class="accordion-panel"><p>Our warranty covers manufacturing defects in modular furniture, hardware and finishes for up to 10 years, based on your chosen package.</p></div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-trigger">Can I customise the design after approval? <span>+</span></button>
+        <div class="accordion-panel"><p>Minor changes can be made before production begins. Changes after production starts may affect timeline and cost.</p></div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-trigger">Which cities do you operate in? <span>+</span></button>
+        <div class="accordion-panel"><p>We currently serve Mumbai, Bengaluru, Pune, Delhi NCR, Hyderabad, Chennai and 25+ other cities across India.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT / CTA ============ -->
+<section class="section contact-section" id="contact">
+  <div class="container contact-inner">
+    <div class="contact-copy">
+      <p class="eyebrow light">Get started</p>
+      <h2 class="light">Book Your Free Design Consultation</h2>
+      <p class="section-sub light-sub">Tell us a bit about your home and our design expert will call you within 24 hours.</p>
+      <ul class="contact-info">
+        <li>📞 1800-123-4567 (Toll Free)</li>
+        <li>✉️ hello@dwellointeriors.com</li>
+        <li>📍 Available in 30+ cities across India</li>
+      </ul>
+    </div>
+
+    <form class="contact-form" id="contactForm">
+      <div id="formSuccess" class="form-success" hidden>Thanks! Our design expert will call you shortly.</div>
+      <div id="formError" class="form-error" hidden>Something went wrong. Please try again.</div>
+
+      <label>Full Name
+        <input type="text" name="name" required placeholder="Your name">
+      </label>
+      <label>Phone Number
+        <input type="tel" name="phone" required pattern="[0-9]{10}" maxlength="10" placeholder="10-digit mobile number">
+      </label>
+      <label>Email
+        <input type="email" name="email" required placeholder="you@example.com">
+      </label>
+      <label>Home Type
+        <select name="homeType" required>
+          <option value="" disabled selected>Select home type</option>
+          <option>1 BHK</option>
+          <option>2 BHK</option>
+          <option>3 BHK</option>
+          <option>4+ BHK / Villa</option>
+        </select>
+      </label>
+      <label>Message (optional)
+        <textarea name="message" rows="3" placeholder="Tell us about your requirement"></textarea>
+      </label>
+
+      <button type="submit" class="btn btn-accent btn-block">Request Free Consultation</button>
+      <p class="form-note">By submitting, you agree to be contacted about our services.</p>
+    </form>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-col footer-brand">
+      <a href="#home" class="logo">Dwello<span>Interiors</span></a>
+      <p>End-to-end home interior design, delivered on time with a 10-year warranty.</p>
+      <div class="social-links">
+        <a href="#" aria-label="Facebook">f</a>
+        <a href="#" aria-label="Instagram">ig</a>
+        <a href="#" aria-label="Pinterest">p</a>
+        <a href="#" aria-label="YouTube">yt</a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <a href="#services">Services</a>
+      <a href="#gallery">Projects</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#testimonials">Reviews</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Services</h4>
+      <a href="#services">Living Room</a>
+      <a href="#services">Modular Kitchen</a>
+      <a href="#services">Bedroom</a>
+      <a href="#services">Full Home Interiors</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Company</h4>
+      <a href="#">About Us</a>
+      <a href="#">Careers</a>
+      <a href="#">Terms of Service</a>
+      <a href="#">Privacy Policy</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container">
+      <p>© <span id="year"></span> Dwello Interiors. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+<script src="js/script.js"></script>
+</body>
+</html>

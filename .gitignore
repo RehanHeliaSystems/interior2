@@ -1,0 +1,9 @@
+node_modules/
+.env
+
+# ASP.NET Core (AdminDashboard/)
+AdminDashboard/bin/
+AdminDashboard/obj/
+AdminDashboard/*.db
+AdminDashboard/*.db-shm
+AdminDashboard/*.db-wal
